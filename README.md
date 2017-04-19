@@ -7,4 +7,5 @@ echo $((2**4))
 
 
 export contar=$(ps -A | tail -n +2 | wc -l)
-echo $conta
+
+echo $contar
